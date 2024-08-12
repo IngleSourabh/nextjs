@@ -25,11 +25,11 @@ const CpFilter = (props:prop) => {
         <label htmlFor="electronics"> Electronics</label>
       </div>
       <div>
-        <input type="checkbox" id="mens_clothing" value="men's clothing" onChange={props.handleClicked}/>
+        <input type="checkbox" id="mens_clothing" value={`men's clothing`} onChange={props.handleClicked}/>
         <label htmlFor="mens_clothing"> Men's Clothing</label>
       </div>
       <div>
-        <input type="checkbox" id="womens_clothing" value="women's clothing" onChange={props.handleClicked}/>
+        <input type="checkbox" id="womens_clothing" value={`women's clothing`} onChange={props.handleClicked}/>
         <label htmlFor="womens_clothing"> Women's Clothing</label>
       </div>
       <div className={`${styles["line"]}`}></div>

@@ -67,7 +67,7 @@ const CpCards = () => {
   }
   return (
     <div className="container">
-      <div className={` ${styles["cp_cards"]}`}>
+      <div className={`${styles["cp_cards"]}`}>
         <div className={`${styles["cards_lhs"]}`}>
           <div>Clothing / Men's / Outerwear</div>
           <div className={`${styles["lhs_filter"]}`}>
@@ -133,9 +133,9 @@ const CpCards = () => {
           )}
         </div>
       </div>
-      <div className={` ${styles["loadMore_button"]}`}>
+      <div className={`${styles["loadMore_button"]}`}>
         {visibleItems < filteredData.length && (
-          <button className={` ${styles["loadMore"]}`} onClick={handleLoadMore}>
+          <button className={`${styles["loadMore"]}`} onClick={handleLoadMore}>
             Load More
           </button>
         )}
